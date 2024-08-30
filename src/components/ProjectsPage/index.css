@@ -1,0 +1,64 @@
+.bg-container {
+  background-color: #f1f5f9;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.select-options {
+  font-family: Roboto;
+  color: #475569;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  width: 400px;
+  padding: 10px;
+  margin: 40px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+  list-style-type: none;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-image {
+  height: 300px;
+  width: 300px;
+}
+
+.failure-heading {
+  font-family: Roboto;
+  color: #475569;
+}
+
+.failure-para {
+  font-family: Roboto;
+  color: #475569;
+}
+
+.retry-button {
+  background-color: #328af2;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-weight: bold;
+  padding: 10px;
+  width: 80px;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
